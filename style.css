@@ -4,48 +4,60 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 ul {
   margin: 0;
   padding: 0px;
 }
+
 li {
   list-style: none;
 }
+
 input,
 button {
   outline: none;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header__img {
   width: 100%;
 }
+
 .header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
+  
   .header {
     text-align: center;
   }
+  
 }
+
 .main {
   display: block;
   width: 500px;
   margin: 16px auto 0;
 }
+
 .section-task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .add-wrap {
   display: flex;
 }
+
 .section__button-edit,
 .section__button-delete {
   background: none;
@@ -56,9 +68,11 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .section__button-edit:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .section__title {
   color: #333;
@@ -70,6 +84,7 @@ button {
   display: block;
   margin: 0 0 20px;
 }
+
 .section__input {
   margin: 0;
   font-size: 18px;
@@ -84,6 +99,7 @@ button {
   width: 226px;
   display: none;
 }
+
 .section__input:focus {
   color: #333;
 }
@@ -106,17 +122,20 @@ button {
 .section__checkbox {
   margin: 0 10px;
 }
+
 .section__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .section__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .section__img:hover {
   transform: rotateZ(0);
 }
